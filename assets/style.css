@@ -39,12 +39,13 @@ header nav {
 header nav ul li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .hero {
     background-color: #c1cec5;
     margin-bottom: 30px;
+    align-items: flex-start;
 }
 
 .hero img {
@@ -248,4 +249,33 @@ footer p {
     font-size: 12px;
     color: black;
     font-style: italic;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info > * {
+        flex: 0 100%;
+    }
+
+    .contact-form {
+        order: 3;
+    }
 }
