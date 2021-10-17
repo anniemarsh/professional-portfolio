@@ -149,6 +149,71 @@ header nav ul li {
     block-size: 10%;
 }
 
+.contact {
+    background-color: #c1cec5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact h2 {
+    padding: 10px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 30px;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+}
+
+.contact-info address {
+    margin: 10px 0;
+    font-size: 16px;
+    font-size: normal;
+    font-weight: lighter;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #829378;
+    display: block;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: black;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: rgba(130, 147, 120, 0.5);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: white;
+    outline: none;
+}
+
+.contact-form button {
+    width: 50%;
+    border: none;
+    background: #829378;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.contact-form button:hover {
+    color: #829378;
+    background: white;
+}
 .flex-row {
     display: flex;
 }
