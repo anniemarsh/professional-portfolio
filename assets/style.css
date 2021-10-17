@@ -87,6 +87,7 @@ header nav ul li {
 .container {
     position: relative;
     padding: 30px;
+    text-align: center;
 }
 
 .container img {
@@ -94,11 +95,27 @@ header nav ul li {
     border-color: #829378;
 }
 
+.containers {
+    position: relative;
+    padding: 30px;
+    flex: 1;
+    text-align: center;
+}
+
+.containers img {
+    border-style: solid;
+    border-color: #829378;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
 .hover01 figure img {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
+    width: 100%;
 }
 
 .hover01 figure:hover img {
@@ -115,5 +132,23 @@ header nav ul li {
     color: white;
     padding: 30px;
     border-style: solid;
-    border-color: #c1cec5
+    border-color: #c1cec5;
+    block-size: 10%;
+}
+
+.text-blocks {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background: rgb(130, 147, 120);
+    background: rgba(130, 147, 120, 0.5);
+    color: white;
+    padding: 30px;
+    border-style: solid;
+    border-color: #c1cec5;
+    block-size: 10%;
+}
+
+.flex-row {
+    display: flex;
 }
